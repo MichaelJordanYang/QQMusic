@@ -7,25 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		777E3586F3BBDF7EE75A707C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 789170FF416B3FFE0A6FBEC4 /* libPods.a */; };
 		E3FBC94B1CE63E6A0046D0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBC94A1CE63E6A0046D0CE /* main.m */; };
 		E3FBC94E1CE63E6A0046D0CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBC94D1CE63E6A0046D0CE /* AppDelegate.m */; };
-		E3FBC9511CE63E6A0046D0CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBC9501CE63E6A0046D0CE /* ViewController.m */; };
 		E3FBC9541CE63E6A0046D0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FBC9521CE63E6A0046D0CE /* Main.storyboard */; };
 		E3FBC9561CE63E6A0046D0CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FBC9551CE63E6A0046D0CE /* Assets.xcassets */; };
 		E3FBC9591CE63E6A0046D0CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FBC9571CE63E6A0046D0CE /* LaunchScreen.storyboard */; };
+		E3FBCA961CE6FD0C0046D0CE /* JDYPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBCA8B1CE6FD0C0046D0CE /* JDYPlayingViewController.m */; };
+		E3FBCA971CE6FD0C0046D0CE /* JDYMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBCA8E1CE6FD0C0046D0CE /* JDYMusic.m */; };
+		E3FBCA981CE6FD0C0046D0CE /* JDYAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBCA921CE6FD0C0046D0CE /* JDYAudioTool.m */; };
+		E3FBCA991CE6FD0C0046D0CE /* JDYMusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBCA941CE6FD0C0046D0CE /* JDYMusicTool.m */; };
+		E3FBCAC71CE6FD5C0046D0CE /* bb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCA9C1CE6FD5C0046D0CE /* bb@2x.jpg */; };
+		E3FBCAC81CE6FD5C0046D0CE /* bb_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCA9D1CE6FD5C0046D0CE /* bb_icon@2x.jpg */; };
+		E3FBCAC91CE6FD5C0046D0CE /* dzq@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCA9E1CE6FD5C0046D0CE /* dzq@2x.jpg */; };
+		E3FBCACA1CE6FD5C0046D0CE /* dzq_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCA9F1CE6FD5C0046D0CE /* dzq_icon@2x.jpg */; };
+		E3FBCACB1CE6FD5C0046D0CE /* eason@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA01CE6FD5C0046D0CE /* eason@2x.jpg */; };
+		E3FBCACC1CE6FD5C0046D0CE /* eason_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA11CE6FD5C0046D0CE /* eason_icon@2x.jpg */; };
+		E3FBCACD1CE6FD5C0046D0CE /* jay@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA21CE6FD5C0046D0CE /* jay@2x.jpg */; };
+		E3FBCACE1CE6FD5C0046D0CE /* jay_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA31CE6FD5C0046D0CE /* jay_icon@2x.png */; };
+		E3FBCACF1CE6FD5C0046D0CE /* jj@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA41CE6FD5C0046D0CE /* jj@2x.jpg */; };
+		E3FBCAD01CE6FD5C0046D0CE /* jj_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA51CE6FD5C0046D0CE /* jj_icon@2x.png */; };
+		E3FBCAD11CE6FD5C0046D0CE /* kzxd@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA61CE6FD5C0046D0CE /* kzxd@2x.jpg */; };
+		E3FBCAD21CE6FD5C0046D0CE /* kzxd_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA71CE6FD5C0046D0CE /* kzxd_icon@2x.jpg */; };
+		E3FBCAD31CE6FD5C0046D0CE /* lkq@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA81CE6FD5C0046D0CE /* lkq@2x.jpg */; };
+		E3FBCAD41CE6FD5C0046D0CE /* lkq_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAA91CE6FD5C0046D0CE /* lkq_icon@2x.jpg */; };
+		E3FBCAD51CE6FD5C0046D0CE /* nanquan@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAAA1CE6FD5C0046D0CE /* nanquan@2x.jpg */; };
+		E3FBCAD61CE6FD5C0046D0CE /* nanquan_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAAB1CE6FD5C0046D0CE /* nanquan_icon@2x.jpg */; };
+		E3FBCAD71CE6FD5C0046D0CE /* wf@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAAC1CE6FD5C0046D0CE /* wf@2x.jpg */; };
+		E3FBCAD81CE6FD5C0046D0CE /* wf_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAAD1CE6FD5C0046D0CE /* wf_icon@2x.jpg */; };
+		E3FBCAD91CE6FD5C0046D0CE /* zxy@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAAE1CE6FD5C0046D0CE /* zxy@2x.jpg */; };
+		E3FBCADA1CE6FD5C0046D0CE /* zxy_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAAF1CE6FD5C0046D0CE /* zxy_icon@2x.jpg */; };
+		E3FBCADB1CE6FD5C0046D0CE /* 10405520.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAB11CE6FD5C0046D0CE /* 10405520.lrc */; };
+		E3FBCADC1CE6FD5C0046D0CE /* 10736444.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAB21CE6FD5C0046D0CE /* 10736444.lrc */; };
+		E3FBCADD1CE6FD5C0046D0CE /* 120125029.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAB31CE6FD5C0046D0CE /* 120125029.lrc */; };
+		E3FBCADE1CE6FD5C0046D0CE /* 12309111.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAB41CE6FD5C0046D0CE /* 12309111.lrc */; };
+		E3FBCADF1CE6FD5C0046D0CE /* 14945107.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAB51CE6FD5C0046D0CE /* 14945107.lrc */; };
+		E3FBCAE01CE6FD5C0046D0CE /* 235319.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAB61CE6FD5C0046D0CE /* 235319.lrc */; };
+		E3FBCAE11CE6FD5C0046D0CE /* 255319.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAB71CE6FD5C0046D0CE /* 255319.lrc */; };
+		E3FBCAE21CE6FD5C0046D0CE /* 309769.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAB81CE6FD5C0046D0CE /* 309769.lrc */; };
+		E3FBCAE31CE6FD5C0046D0CE /* 339744.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAB91CE6FD5C0046D0CE /* 339744.lrc */; };
+		E3FBCAE41CE6FD5C0046D0CE /* 月半小夜曲.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCABA1CE6FD5C0046D0CE /* 月半小夜曲.lrc */; };
+		E3FBCAE51CE6FD5C0046D0CE /* 10405520.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCABC1CE6FD5C0046D0CE /* 10405520.mp3 */; };
+		E3FBCAE61CE6FD5C0046D0CE /* 10736444.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCABD1CE6FD5C0046D0CE /* 10736444.mp3 */; };
+		E3FBCAE71CE6FD5C0046D0CE /* 1201111234.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCABE1CE6FD5C0046D0CE /* 1201111234.mp3 */; };
+		E3FBCAE81CE6FD5C0046D0CE /* 120125029.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCABF1CE6FD5C0046D0CE /* 120125029.mp3 */; };
+		E3FBCAE91CE6FD5C0046D0CE /* 12309111.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAC01CE6FD5C0046D0CE /* 12309111.mp3 */; };
+		E3FBCAEA1CE6FD5C0046D0CE /* 14945107.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAC11CE6FD5C0046D0CE /* 14945107.mp3 */; };
+		E3FBCAEB1CE6FD5C0046D0CE /* 235319.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAC21CE6FD5C0046D0CE /* 235319.mp3 */; };
+		E3FBCAEC1CE6FD5C0046D0CE /* 255319.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAC31CE6FD5C0046D0CE /* 255319.mp3 */; };
+		E3FBCAED1CE6FD5C0046D0CE /* 309769.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAC41CE6FD5C0046D0CE /* 309769.mp3 */; };
+		E3FBCAEE1CE6FD5C0046D0CE /* 339744.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAC51CE6FD5C0046D0CE /* 339744.mp3 */; };
+		E3FBCAEF1CE6FD5C0046D0CE /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3FBCAC61CE6FD5C0046D0CE /* Musics.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F22428FF904973704E3D731 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		789170FF416B3FFE0A6FBEC4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FBC9461CE63E6A0046D0CE /* QQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FBC94A1CE63E6A0046D0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3FBC94C1CE63E6A0046D0CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3FBC94D1CE63E6A0046D0CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E3FBC94F1CE63E6A0046D0CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E3FBC9501CE63E6A0046D0CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E3FBC9531CE63E6A0046D0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3FBC9551CE63E6A0046D0CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3FBC9581CE63E6A0046D0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3FBC95A1CE63E6A0046D0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FBCA8A1CE6FD0C0046D0CE /* JDYPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYPlayingViewController.h; sourceTree = "<group>"; };
+		E3FBCA8B1CE6FD0C0046D0CE /* JDYPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYPlayingViewController.m; sourceTree = "<group>"; };
+		E3FBCA8D1CE6FD0C0046D0CE /* JDYMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMusic.h; sourceTree = "<group>"; };
+		E3FBCA8E1CE6FD0C0046D0CE /* JDYMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMusic.m; sourceTree = "<group>"; };
+		E3FBCA911CE6FD0C0046D0CE /* JDYAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYAudioTool.h; sourceTree = "<group>"; };
+		E3FBCA921CE6FD0C0046D0CE /* JDYAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYAudioTool.m; sourceTree = "<group>"; };
+		E3FBCA931CE6FD0C0046D0CE /* JDYMusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYMusicTool.h; sourceTree = "<group>"; };
+		E3FBCA941CE6FD0C0046D0CE /* JDYMusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYMusicTool.m; sourceTree = "<group>"; };
+		E3FBCA9C1CE6FD5C0046D0CE /* bb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCA9D1CE6FD5C0046D0CE /* bb_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb_icon@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCA9E1CE6FD5C0046D0CE /* dzq@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dzq@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCA9F1CE6FD5C0046D0CE /* dzq_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dzq_icon@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAA01CE6FD5C0046D0CE /* eason@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eason@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAA11CE6FD5C0046D0CE /* eason_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eason_icon@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAA21CE6FD5C0046D0CE /* jay@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jay@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAA31CE6FD5C0046D0CE /* jay_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jay_icon@2x.png"; sourceTree = "<group>"; };
+		E3FBCAA41CE6FD5C0046D0CE /* jj@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jj@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAA51CE6FD5C0046D0CE /* jj_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jj_icon@2x.png"; sourceTree = "<group>"; };
+		E3FBCAA61CE6FD5C0046D0CE /* kzxd@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kzxd@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAA71CE6FD5C0046D0CE /* kzxd_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kzxd_icon@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAA81CE6FD5C0046D0CE /* lkq@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lkq@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAA91CE6FD5C0046D0CE /* lkq_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lkq_icon@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAAA1CE6FD5C0046D0CE /* nanquan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanquan@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAAB1CE6FD5C0046D0CE /* nanquan_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanquan_icon@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAAC1CE6FD5C0046D0CE /* wf@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wf@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAAD1CE6FD5C0046D0CE /* wf_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wf_icon@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAAE1CE6FD5C0046D0CE /* zxy@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAAF1CE6FD5C0046D0CE /* zxy_icon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zxy_icon@2x.jpg"; sourceTree = "<group>"; };
+		E3FBCAB11CE6FD5C0046D0CE /* 10405520.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10405520.lrc; sourceTree = "<group>"; };
+		E3FBCAB21CE6FD5C0046D0CE /* 10736444.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10736444.lrc; sourceTree = "<group>"; };
+		E3FBCAB31CE6FD5C0046D0CE /* 120125029.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 120125029.lrc; sourceTree = "<group>"; };
+		E3FBCAB41CE6FD5C0046D0CE /* 12309111.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 12309111.lrc; sourceTree = "<group>"; };
+		E3FBCAB51CE6FD5C0046D0CE /* 14945107.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 14945107.lrc; sourceTree = "<group>"; };
+		E3FBCAB61CE6FD5C0046D0CE /* 235319.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 235319.lrc; sourceTree = "<group>"; };
+		E3FBCAB71CE6FD5C0046D0CE /* 255319.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 255319.lrc; sourceTree = "<group>"; };
+		E3FBCAB81CE6FD5C0046D0CE /* 309769.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 309769.lrc; sourceTree = "<group>"; };
+		E3FBCAB91CE6FD5C0046D0CE /* 339744.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 339744.lrc; sourceTree = "<group>"; };
+		E3FBCABA1CE6FD5C0046D0CE /* 月半小夜曲.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "月半小夜曲.lrc"; sourceTree = "<group>"; };
+		E3FBCABC1CE6FD5C0046D0CE /* 10405520.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10405520.mp3; sourceTree = "<group>"; };
+		E3FBCABD1CE6FD5C0046D0CE /* 10736444.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10736444.mp3; sourceTree = "<group>"; };
+		E3FBCABE1CE6FD5C0046D0CE /* 1201111234.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1201111234.mp3; sourceTree = "<group>"; };
+		E3FBCABF1CE6FD5C0046D0CE /* 120125029.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 120125029.mp3; sourceTree = "<group>"; };
+		E3FBCAC01CE6FD5C0046D0CE /* 12309111.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 12309111.mp3; sourceTree = "<group>"; };
+		E3FBCAC11CE6FD5C0046D0CE /* 14945107.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 14945107.mp3; sourceTree = "<group>"; };
+		E3FBCAC21CE6FD5C0046D0CE /* 235319.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 235319.mp3; sourceTree = "<group>"; };
+		E3FBCAC31CE6FD5C0046D0CE /* 255319.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 255319.mp3; sourceTree = "<group>"; };
+		E3FBCAC41CE6FD5C0046D0CE /* 309769.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 309769.mp3; sourceTree = "<group>"; };
+		E3FBCAC51CE6FD5C0046D0CE /* 339744.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 339744.mp3; sourceTree = "<group>"; };
+		E3FBCAC61CE6FD5C0046D0CE /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
+		F99E85D0911B9A03B1433CB6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +128,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				777E3586F3BBDF7EE75A707C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C6315CAA066165E3B988076 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F99E85D0911B9A03B1433CB6 /* Pods.debug.xcconfig */,
+				1F22428FF904973704E3D731 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		730F08B84DC715014B4CAADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				789170FF416B3FFE0A6FBEC4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3FBC93D1CE63E6A0046D0CE = {
 			isa = PBXGroup;
 			children = (
 				E3FBC9481CE63E6A0046D0CE /* QQMusic */,
 				E3FBC9471CE63E6A0046D0CE /* Products */,
+				3C6315CAA066165E3B988076 /* Pods */,
+				730F08B84DC715014B4CAADD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +173,14 @@
 		E3FBC9481CE63E6A0046D0CE /* QQMusic */ = {
 			isa = PBXGroup;
 			children = (
+				E3FBCA881CE6FD0C0046D0CE /* Classes */,
 				E3FBC94C1CE63E6A0046D0CE /* AppDelegate.h */,
 				E3FBC94D1CE63E6A0046D0CE /* AppDelegate.m */,
-				E3FBC94F1CE63E6A0046D0CE /* ViewController.h */,
-				E3FBC9501CE63E6A0046D0CE /* ViewController.m */,
 				E3FBC9521CE63E6A0046D0CE /* Main.storyboard */,
 				E3FBC9551CE63E6A0046D0CE /* Assets.xcassets */,
 				E3FBC9571CE63E6A0046D0CE /* LaunchScreen.storyboard */,
 				E3FBC95A1CE63E6A0046D0CE /* Info.plist */,
+				E3FBCA9A1CE6FD5C0046D0CE /* Resources */,
 				E3FBC9491CE63E6A0046D0CE /* Supporting Files */,
 			);
 			path = QQMusic;
@@ -79,6 +194,133 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E3FBCA881CE6FD0C0046D0CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBCA891CE6FD0C0046D0CE /* Controller */,
+				E3FBCA8C1CE6FD0C0046D0CE /* Model */,
+				E3FBCA8F1CE6FD0C0046D0CE /* Other */,
+				E3FBCA901CE6FD0C0046D0CE /* Tool */,
+				E3FBCA951CE6FD0C0046D0CE /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E3FBCA891CE6FD0C0046D0CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBCA8A1CE6FD0C0046D0CE /* JDYPlayingViewController.h */,
+				E3FBCA8B1CE6FD0C0046D0CE /* JDYPlayingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3FBCA8C1CE6FD0C0046D0CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBCA8D1CE6FD0C0046D0CE /* JDYMusic.h */,
+				E3FBCA8E1CE6FD0C0046D0CE /* JDYMusic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3FBCA8F1CE6FD0C0046D0CE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E3FBCA901CE6FD0C0046D0CE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBCA911CE6FD0C0046D0CE /* JDYAudioTool.h */,
+				E3FBCA921CE6FD0C0046D0CE /* JDYAudioTool.m */,
+				E3FBCA931CE6FD0C0046D0CE /* JDYMusicTool.h */,
+				E3FBCA941CE6FD0C0046D0CE /* JDYMusicTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E3FBCA951CE6FD0C0046D0CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3FBCA9A1CE6FD5C0046D0CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBCA9B1CE6FD5C0046D0CE /* Images */,
+				E3FBCAB01CE6FD5C0046D0CE /* Lrcs */,
+				E3FBCABB1CE6FD5C0046D0CE /* MP3s */,
+				E3FBCAC61CE6FD5C0046D0CE /* Musics.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E3FBCA9B1CE6FD5C0046D0CE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBCA9C1CE6FD5C0046D0CE /* bb@2x.jpg */,
+				E3FBCA9D1CE6FD5C0046D0CE /* bb_icon@2x.jpg */,
+				E3FBCA9E1CE6FD5C0046D0CE /* dzq@2x.jpg */,
+				E3FBCA9F1CE6FD5C0046D0CE /* dzq_icon@2x.jpg */,
+				E3FBCAA01CE6FD5C0046D0CE /* eason@2x.jpg */,
+				E3FBCAA11CE6FD5C0046D0CE /* eason_icon@2x.jpg */,
+				E3FBCAA21CE6FD5C0046D0CE /* jay@2x.jpg */,
+				E3FBCAA31CE6FD5C0046D0CE /* jay_icon@2x.png */,
+				E3FBCAA41CE6FD5C0046D0CE /* jj@2x.jpg */,
+				E3FBCAA51CE6FD5C0046D0CE /* jj_icon@2x.png */,
+				E3FBCAA61CE6FD5C0046D0CE /* kzxd@2x.jpg */,
+				E3FBCAA71CE6FD5C0046D0CE /* kzxd_icon@2x.jpg */,
+				E3FBCAA81CE6FD5C0046D0CE /* lkq@2x.jpg */,
+				E3FBCAA91CE6FD5C0046D0CE /* lkq_icon@2x.jpg */,
+				E3FBCAAA1CE6FD5C0046D0CE /* nanquan@2x.jpg */,
+				E3FBCAAB1CE6FD5C0046D0CE /* nanquan_icon@2x.jpg */,
+				E3FBCAAC1CE6FD5C0046D0CE /* wf@2x.jpg */,
+				E3FBCAAD1CE6FD5C0046D0CE /* wf_icon@2x.jpg */,
+				E3FBCAAE1CE6FD5C0046D0CE /* zxy@2x.jpg */,
+				E3FBCAAF1CE6FD5C0046D0CE /* zxy_icon@2x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E3FBCAB01CE6FD5C0046D0CE /* Lrcs */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBCAB11CE6FD5C0046D0CE /* 10405520.lrc */,
+				E3FBCAB21CE6FD5C0046D0CE /* 10736444.lrc */,
+				E3FBCAB31CE6FD5C0046D0CE /* 120125029.lrc */,
+				E3FBCAB41CE6FD5C0046D0CE /* 12309111.lrc */,
+				E3FBCAB51CE6FD5C0046D0CE /* 14945107.lrc */,
+				E3FBCAB61CE6FD5C0046D0CE /* 235319.lrc */,
+				E3FBCAB71CE6FD5C0046D0CE /* 255319.lrc */,
+				E3FBCAB81CE6FD5C0046D0CE /* 309769.lrc */,
+				E3FBCAB91CE6FD5C0046D0CE /* 339744.lrc */,
+				E3FBCABA1CE6FD5C0046D0CE /* 月半小夜曲.lrc */,
+			);
+			path = Lrcs;
+			sourceTree = "<group>";
+		};
+		E3FBCABB1CE6FD5C0046D0CE /* MP3s */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBCABC1CE6FD5C0046D0CE /* 10405520.mp3 */,
+				E3FBCABD1CE6FD5C0046D0CE /* 10736444.mp3 */,
+				E3FBCABE1CE6FD5C0046D0CE /* 1201111234.mp3 */,
+				E3FBCABF1CE6FD5C0046D0CE /* 120125029.mp3 */,
+				E3FBCAC01CE6FD5C0046D0CE /* 12309111.mp3 */,
+				E3FBCAC11CE6FD5C0046D0CE /* 14945107.mp3 */,
+				E3FBCAC21CE6FD5C0046D0CE /* 235319.mp3 */,
+				E3FBCAC31CE6FD5C0046D0CE /* 255319.mp3 */,
+				E3FBCAC41CE6FD5C0046D0CE /* 309769.mp3 */,
+				E3FBCAC51CE6FD5C0046D0CE /* 339744.mp3 */,
+			);
+			path = MP3s;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +328,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3FBC95D1CE63E6A0046D0CE /* Build configuration list for PBXNativeTarget "QQMusic" */;
 			buildPhases = (
+				7728C03364F1A16346DD17F6 /* Check Pods Manifest.lock */,
 				E3FBC9421CE63E6A0046D0CE /* Sources */,
 				E3FBC9431CE63E6A0046D0CE /* Frameworks */,
 				E3FBC9441CE63E6A0046D0CE /* Resources */,
+				F066037DF40A1BE248F2FFF8 /* Embed Pods Frameworks */,
+				9A249BC3510F8AEB7F915858 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +350,7 @@
 		E3FBC93E1CE63E6A0046D0CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JDY;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = yangChunFu;
 				TargetAttributes = {
@@ -137,22 +383,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FBCAE11CE6FD5C0046D0CE /* 255319.lrc in Resources */,
+				E3FBCADC1CE6FD5C0046D0CE /* 10736444.lrc in Resources */,
+				E3FBCAE91CE6FD5C0046D0CE /* 12309111.mp3 in Resources */,
+				E3FBCAD61CE6FD5C0046D0CE /* nanquan_icon@2x.jpg in Resources */,
+				E3FBCAD01CE6FD5C0046D0CE /* jj_icon@2x.png in Resources */,
+				E3FBCAE71CE6FD5C0046D0CE /* 1201111234.mp3 in Resources */,
+				E3FBCAEF1CE6FD5C0046D0CE /* Musics.plist in Resources */,
+				E3FBCAE61CE6FD5C0046D0CE /* 10736444.mp3 in Resources */,
+				E3FBCACE1CE6FD5C0046D0CE /* jay_icon@2x.png in Resources */,
+				E3FBCAEA1CE6FD5C0046D0CE /* 14945107.mp3 in Resources */,
+				E3FBCAC81CE6FD5C0046D0CE /* bb_icon@2x.jpg in Resources */,
+				E3FBCADB1CE6FD5C0046D0CE /* 10405520.lrc in Resources */,
+				E3FBCAD21CE6FD5C0046D0CE /* kzxd_icon@2x.jpg in Resources */,
+				E3FBCACD1CE6FD5C0046D0CE /* jay@2x.jpg in Resources */,
 				E3FBC9591CE63E6A0046D0CE /* LaunchScreen.storyboard in Resources */,
+				E3FBCADA1CE6FD5C0046D0CE /* zxy_icon@2x.jpg in Resources */,
+				E3FBCAEC1CE6FD5C0046D0CE /* 255319.mp3 in Resources */,
+				E3FBCAD71CE6FD5C0046D0CE /* wf@2x.jpg in Resources */,
+				E3FBCAC91CE6FD5C0046D0CE /* dzq@2x.jpg in Resources */,
+				E3FBCAD81CE6FD5C0046D0CE /* wf_icon@2x.jpg in Resources */,
+				E3FBCACC1CE6FD5C0046D0CE /* eason_icon@2x.jpg in Resources */,
+				E3FBCAE81CE6FD5C0046D0CE /* 120125029.mp3 in Resources */,
+				E3FBCAE51CE6FD5C0046D0CE /* 10405520.mp3 in Resources */,
+				E3FBCAD11CE6FD5C0046D0CE /* kzxd@2x.jpg in Resources */,
+				E3FBCAD41CE6FD5C0046D0CE /* lkq_icon@2x.jpg in Resources */,
+				E3FBCAEB1CE6FD5C0046D0CE /* 235319.mp3 in Resources */,
+				E3FBCADE1CE6FD5C0046D0CE /* 12309111.lrc in Resources */,
+				E3FBCACF1CE6FD5C0046D0CE /* jj@2x.jpg in Resources */,
+				E3FBCAD91CE6FD5C0046D0CE /* zxy@2x.jpg in Resources */,
+				E3FBCACB1CE6FD5C0046D0CE /* eason@2x.jpg in Resources */,
+				E3FBCAD31CE6FD5C0046D0CE /* lkq@2x.jpg in Resources */,
+				E3FBCAE21CE6FD5C0046D0CE /* 309769.lrc in Resources */,
+				E3FBCAE31CE6FD5C0046D0CE /* 339744.lrc in Resources */,
+				E3FBCAE41CE6FD5C0046D0CE /* 月半小夜曲.lrc in Resources */,
+				E3FBCACA1CE6FD5C0046D0CE /* dzq_icon@2x.jpg in Resources */,
+				E3FBCADF1CE6FD5C0046D0CE /* 14945107.lrc in Resources */,
 				E3FBC9561CE63E6A0046D0CE /* Assets.xcassets in Resources */,
+				E3FBCAED1CE6FD5C0046D0CE /* 309769.mp3 in Resources */,
+				E3FBCADD1CE6FD5C0046D0CE /* 120125029.lrc in Resources */,
+				E3FBCAC71CE6FD5C0046D0CE /* bb@2x.jpg in Resources */,
+				E3FBCAE01CE6FD5C0046D0CE /* 235319.lrc in Resources */,
 				E3FBC9541CE63E6A0046D0CE /* Main.storyboard in Resources */,
+				E3FBCAD51CE6FD5C0046D0CE /* nanquan@2x.jpg in Resources */,
+				E3FBCAEE1CE6FD5C0046D0CE /* 339744.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7728C03364F1A16346DD17F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A249BC3510F8AEB7F915858 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F066037DF40A1BE248F2FFF8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3FBC9421CE63E6A0046D0CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3FBC9511CE63E6A0046D0CE /* ViewController.m in Sources */,
+				E3FBCA971CE6FD0C0046D0CE /* JDYMusic.m in Sources */,
 				E3FBC94E1CE63E6A0046D0CE /* AppDelegate.m in Sources */,
 				E3FBC94B1CE63E6A0046D0CE /* main.m in Sources */,
+				E3FBCA991CE6FD0C0046D0CE /* JDYMusicTool.m in Sources */,
+				E3FBCA981CE6FD0C0046D0CE /* JDYAudioTool.m in Sources */,
+				E3FBCA961CE6FD0C0046D0CE /* JDYPlayingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +598,10 @@
 		};
 		E3FBC95E1CE63E6A0046D0CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99E85D0911B9A03B1433CB6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = QQMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.897733537.QQMusic;
@@ -271,8 +611,10 @@
 		};
 		E3FBC95F1CE63E6A0046D0CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F22428FF904973704E3D731 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = QQMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.897733537.QQMusic;
@@ -299,6 +641,7 @@
 				E3FBC95F1CE63E6A0046D0CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
