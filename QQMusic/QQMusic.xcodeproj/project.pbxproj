@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		777E3586F3BBDF7EE75A707C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 789170FF416B3FFE0A6FBEC4 /* libPods.a */; };
+		E37E7CDB1CE9F5DD0057B6FC /* Musics.plist in Resources */ = {isa = PBXBuildFile; fileRef = E37E7CDA1CE9F5DD0057B6FC /* Musics.plist */; };
 		E3FBC94B1CE63E6A0046D0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBC94A1CE63E6A0046D0CE /* main.m */; };
 		E3FBC94E1CE63E6A0046D0CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FBC94D1CE63E6A0046D0CE /* AppDelegate.m */; };
 		E3FBC9541CE63E6A0046D0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FBC9521CE63E6A0046D0CE /* Main.storyboard */; };
@@ -63,6 +64,7 @@
 /* Begin PBXFileReference section */
 		1F22428FF904973704E3D731 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		789170FF416B3FFE0A6FBEC4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37E7CDA1CE9F5DD0057B6FC /* Musics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Musics.plist; sourceTree = "<group>"; };
 		E3FBC9461CE63E6A0046D0CE /* QQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FBC94A1CE63E6A0046D0CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E3FBC94C1CE63E6A0046D0CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				E3FBC9551CE63E6A0046D0CE /* Assets.xcassets */,
 				E3FBC9571CE63E6A0046D0CE /* LaunchScreen.storyboard */,
 				E3FBC95A1CE63E6A0046D0CE /* Info.plist */,
+				E37E7CDA1CE9F5DD0057B6FC /* Musics.plist */,
 				E3FBCA9A1CE6FD5C0046D0CE /* Resources */,
 				E3FBC9491CE63E6A0046D0CE /* Supporting Files */,
 			);
@@ -197,11 +200,11 @@
 		E3FBCA881CE6FD0C0046D0CE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E3FBCA901CE6FD0C0046D0CE /* Tool */,
 				E3FBCA891CE6FD0C0046D0CE /* Controller */,
 				E3FBCA8C1CE6FD0C0046D0CE /* Model */,
-				E3FBCA8F1CE6FD0C0046D0CE /* Other */,
-				E3FBCA901CE6FD0C0046D0CE /* Tool */,
 				E3FBCA951CE6FD0C0046D0CE /* View */,
+				E3FBCA8F1CE6FD0C0046D0CE /* Other */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 				E3FBCAE51CE6FD5C0046D0CE /* 10405520.mp3 in Resources */,
 				E3FBCAD11CE6FD5C0046D0CE /* kzxd@2x.jpg in Resources */,
 				E3FBCAD41CE6FD5C0046D0CE /* lkq_icon@2x.jpg in Resources */,
+				E37E7CDB1CE9F5DD0057B6FC /* Musics.plist in Resources */,
 				E3FBCAEB1CE6FD5C0046D0CE /* 235319.mp3 in Resources */,
 				E3FBCADE1CE6FD5C0046D0CE /* 12309111.lrc in Resources */,
 				E3FBCACF1CE6FD5C0046D0CE /* jj@2x.jpg in Resources */,
